@@ -1,2 +1,2 @@
 # Noob-level
-This repository has nooblevel projects.
+This Repository has nooblevel projects.
