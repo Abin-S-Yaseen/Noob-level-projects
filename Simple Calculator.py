@@ -13,12 +13,12 @@ def multiply():
 def divide():
     return num1 / num2
 
-if optr == '+':
+if optr == "+":
     print("The answer is " + str(add()))
-if optr == '-':
+if optr == "-":
     print("The answer is " + str(subtract()))
-if optr == '*':
+if optr == "*":
     print("The answer is " + str(multiply()))
-if optr == '/':
+if optr == "/":
     print("The answer is " + str(divide()))
 
