@@ -87,3 +87,4 @@ elif your_score < comp_score:
 else:
     print('MATCH TIED !!!')
 
+input('Press Enter key to exit: ')
