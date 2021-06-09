@@ -3,6 +3,7 @@
 num1 = float(input('Enter the first number: '))
 optr = input('Enter the operator: ')
 num2 = float(input('Enter the second number and press Enter key: '))
+  
 
 def add():
     return num1 + num2
