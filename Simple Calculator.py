@@ -23,4 +23,5 @@ if optr == "*":
 if optr == "/":
     print("The answer is " + str(divide()))
     
+input('Press ENTER to exit: ')
 
