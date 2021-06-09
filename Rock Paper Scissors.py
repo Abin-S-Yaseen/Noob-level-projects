@@ -86,3 +86,4 @@ elif your_score < comp_score:
     print('YOU LOSE THE GAME :(')
 else:
     print('MATCH TIED !!!')
+
