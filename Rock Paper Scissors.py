@@ -77,6 +77,8 @@ while True:
     if wanna_play == 'N' or wanna_play == 'n':
         break
 
+print("FINAL RESULTS")
+print("--------------")
 print("YOUR SCORE = " + str(your_score))
 print("COMPUTER SCORE = " + str(comp_score))
 time.sleep(1)
