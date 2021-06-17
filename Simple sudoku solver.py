@@ -10,3 +10,13 @@ grid = [[5,3,0,0,7,0,0,0,0],
         [0,6,0,0,0,0,2,8,0],
         [0,0,0,4,1,9,0,0,5],
         [0,0,0,0,8,0,0,0,0]]
+
+print("The question is: ")
+print(np.matrix(grid))
+
+def possible(row,column,number):
+    global grid
+    # for checking same number in row
+    for i in range(0,9):
+        if grid[row][i] == number:
+            return False
