@@ -20,3 +20,8 @@ def possible(row,column,number):
     for i in range(0,9):
         if grid[row][i] == number:
             return False
+    
+    # for checking same number in column
+    for i in range(0,9):
+        if grid[i][column] == number:
+            return False
