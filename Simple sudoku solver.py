@@ -25,3 +25,11 @@ def possible(row,column,number):
     for i in range(0,9):
         if grid[i][column] == number:
             return False
+    
+    # for checking same number in 3x3 square
+    x = (column // 3) * 3
+    y = (row // 3) * 3
+    for i in range(0,3):
+        for j in range(0,3):
+            if grid[y+i][x+j] == number:
+                return False
