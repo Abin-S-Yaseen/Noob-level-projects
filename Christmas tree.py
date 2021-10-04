@@ -3,3 +3,6 @@ import time
 space = " "
 x = 20
 y = 18
+z = 16
+for i in range(1,10,2):
+    print(space*x+("*"*i))
