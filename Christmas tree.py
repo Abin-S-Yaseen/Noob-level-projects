@@ -9,3 +9,4 @@ for i in range(1,10,2):
     x -= 1
 for i in range(5,16,2):
     print(space*y+("*"*i))
+    y -= 1
