@@ -7,3 +7,4 @@ r = random.randrange(1,6)
 s = random.randrange(1,16)
 
 print("Guess a number between 1 and 10")
+confirm1 = input("Press 'Y' to confirm ")
