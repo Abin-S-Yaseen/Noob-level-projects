@@ -11,3 +11,4 @@ confirm1 = input("Press 'Y' to confirm ")
 if confirm1.upper() == 'Y':
     confirm2 = input(f"Add {p} to the guessed number and press 'Y' to continue ")
     if confirm2.upper() == 'Y':
+        confirm3 = input(f"Subtract {q} from the current number and press 'Y' to continue ")
