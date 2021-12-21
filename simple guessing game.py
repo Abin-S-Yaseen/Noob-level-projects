@@ -13,3 +13,4 @@ if confirm1.upper() == 'Y':
     if confirm2.upper() == 'Y':
         confirm3 = input(f"Subtract {q} from the current number and press 'Y' to continue ")
         if confirm3.upper() == 'Y':
+            confirm4 = input(f"Multiply the current number by {r} and press 'Y' to continue ")
