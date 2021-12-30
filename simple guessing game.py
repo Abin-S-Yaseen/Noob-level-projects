@@ -16,3 +16,4 @@ if confirm1.upper() == 'Y':
             confirm4 = input(f"Multiply the current number by {r} and press 'Y' to continue ")
             if confirm4.upper() == 'Y':
                 confirm5 = input(f"Add {s} to the current number and press 'Y' to continue ")
+                if confirm5.upper() == 'Y':
