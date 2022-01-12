@@ -19,3 +19,4 @@ if confirm1.upper() == 'Y':
                 if confirm5.upper() == 'Y':
                     c = input("Enter the the current number that you got after the calculations : ")
                     if type(c) == int or float:
+                        guessed_num = (int(c) - s)/r + q - p
