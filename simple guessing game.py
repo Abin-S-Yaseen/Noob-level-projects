@@ -22,3 +22,4 @@ if confirm1.upper() == 'Y':
                         guessed_num = (int(c) - s)/r + q - p
                         print(f"The number that you guessed in the beginning was {int(guessed_num)} !!!")
                         time.sleep(5)
+                    else:
