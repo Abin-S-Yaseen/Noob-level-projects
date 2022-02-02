@@ -23,3 +23,4 @@ if confirm1.upper() == 'Y':
                         print(f"The number that you guessed in the beginning was {int(guessed_num)} !!!")
                         time.sleep(5)
                     else:
+                        print("INVALID SYNTAX")
