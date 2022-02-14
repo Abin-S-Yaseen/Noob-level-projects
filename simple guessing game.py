@@ -29,3 +29,4 @@ if confirm1.upper() == 'Y':
             else:
                 print("INVALID SYNTAX")
         else:
+            print("INVALID SYNTAX")
